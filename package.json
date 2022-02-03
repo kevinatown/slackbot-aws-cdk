@@ -1,0 +1,26 @@
+{
+  "name": "slackbotstack",
+  "version": "1.0.0",
+  "description": "A serverless Slackbot built with AWS CDK",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "build:deploy": "npm run build && cdk synth && cdk deploy"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.17.0",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "*",
+    "@aws-cdk/aws-dynamodb": "*",
+    "@aws-cdk/aws-events": "^1.79.0",
+    "@aws-cdk/aws-events-targets": "^1.79.0",
+    "@aws-cdk/aws-lambda": "*",
+    "@aws-cdk/core": "*",
+    "aws-sdk": "^2.814.0"
+  }
+}

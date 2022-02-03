@@ -1,0 +1,7 @@
+.env
+.DS_Store
+cdk.out
+node_modules
+lib
+**/node_modules
+**/lib

@@ -1,0 +1,18 @@
+{
+  "name": "managebot",
+  "version": "1.0.0",
+  "description": "I am programmed to manage",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vendia/serverless-express": "^3.4.0",
+    "botbuilder-adapter-slack": "^1.0.13",
+    "botkit": "^4.10.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
